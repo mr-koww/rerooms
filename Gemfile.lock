@@ -58,6 +58,8 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2, >= 2.2.2)
+    ancestry (4.1.0)
+      activerecord (>= 5.2.6)
     bootsnap (1.11.1)
       msgpack (~> 1.2)
     builder (3.2.4)
@@ -157,6 +159,7 @@ PLATFORMS
 
 DEPENDENCIES
   aasm (~> 5.2.0)
+  ancestry (~> 4.1.0)
   bootsnap (>= 1.4.2)
   byebug
   jbuilder (~> 2.7)

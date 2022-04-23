@@ -16,4 +16,7 @@ class MenuItem < ApplicationRecord
       transitions from: %w[new active], to: :disabled
     end
   end
+
+  # Tree
+  has_ancestry
 end
