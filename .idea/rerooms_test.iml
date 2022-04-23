@@ -28,6 +28,7 @@
     </content>
     <orderEntry type="jdk" jdkName="RVM: ruby-2.7.2 [rerooms]" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="aasm (v5.2.0, RVM: ruby-2.7.2 [rerooms]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actioncable (v6.0.4.7, RVM: ruby-2.7.2 [rerooms]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionmailbox (v6.0.4.7, RVM: ruby-2.7.2 [rerooms]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionmailer (v6.0.4.7, RVM: ruby-2.7.2 [rerooms]) [gem]" level="application" />
