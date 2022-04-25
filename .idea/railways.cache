@@ -1,0 +1,8 @@
+do /Users/mr-koww/.rvm/rubies/ruby-2.7.2/bin/ruby -x /Users/mr-koww/.rvm/rubies/ruby-2.7.2/bin/bundle exec /Users/mr-koww/.rvm/rubies/ruby-2.7.2/bin/ruby /Users/mr-koww/dev/test/rerooms_test/bin/rails routes --trace 
+Ruby enVironment Manager 1.29.12 (latest) (c) 2009-2020 Michal Papis, Piotr Kuczynski, Wayne E. Seguin
+
+                  Prefix Verb  URI Pattern                             Controller#Action
+       api_v1_menu_items GET   /api/v1/menu_items(.:format)            api/v1/menu_items#index
+api_dashboard_menu_items GET   /api/dashboard/menu_items(.:format)     api/dashboard/menu_items#index
+ api_dashboard_menu_item PATCH /api/dashboard/menu_items/:id(.:format) api/dashboard/menu_items#update
+                         PUT   /api/dashboard/menu_items/:id(.:format) api/dashboard/menu_items#update

@@ -1,6 +1,8 @@
 class MenuItem < ApplicationRecord
   validates :name, presence: true
 
+  default_scope -> { order(id: :asc) }
+
   # State machine
   include AASM
 
@@ -18,5 +20,14 @@ class MenuItem < ApplicationRecord
   end
 
   # Tree
-  has_ancestry
+  has_ancestry counter_cache: true
+
+  def parent_name
+    parent&.name # TODO: N+1
+  end
+
+  # Ransack
+  def self.ransackable_attributes(_auth_object = nil)
+    %w[id name state]
+  end
 end
